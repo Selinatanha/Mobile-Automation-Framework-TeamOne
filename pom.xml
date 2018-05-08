@@ -11,6 +11,7 @@
     <modules>
         <module>Generic</module>
         <module>Yelp</module>
+        <module>Walmart</module>
     </modules>
     <dependencyManagement>
 <dependencies>
