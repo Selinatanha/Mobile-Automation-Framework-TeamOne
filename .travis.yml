@@ -1,0 +1,8 @@
+language: java
+os: osx
+script:
+  -mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -v
+  -mvn validate -
+cheche:
+  directories:
+  -$HOME/.m2
