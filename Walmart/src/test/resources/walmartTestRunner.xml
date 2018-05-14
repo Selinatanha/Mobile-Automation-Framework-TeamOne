@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="NYP App 1 Automation Test">
+<suite name="Walmart Automation Test">
 
     <parameter name="OS" value="Android"/>
     <parameter name="appType" value="Phone"/>
@@ -9,11 +9,15 @@
     <parameter name="deviceName" value="Nexus"/>
     <parameter name="version" value="5.1"/>
     <parameter name="moduleName" value="Walmart"/>
-    <parameter name="appName" value="Walmart.apk"/>
+    <parameter name="appName" value="Walmart_v18.7.2_apkpure.com (1).apk"/>
 
     <test name="GoToHomePage" preserve-order="true">
         <classes>
-            <class name="pages.WalmartTest"/>
+            <!--<class name="pages.TestShoppingCart"/> -->
+            <!--<class name="pages.TestSearchField"/>-->
+            <!--<class name="pages.TestLookThroughMenu"/>-->
+            <!--<class name="pages.TestGoingThroughImages"/>-->
+            <class name="testDataDriven.TestRegistration"/>
         </classes>
     </test>
 
