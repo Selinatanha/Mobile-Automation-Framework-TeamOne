@@ -11,6 +11,11 @@
     <modules>
         <module>Generic</module>
         <module>Yelp</module>
+
+        <module>Walmart</module>
+
+        <module>CNN</module>
+
     </modules>
     <dependencyManagement>
 <dependencies>
@@ -18,6 +23,16 @@
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
         <version>6.9.10</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>3.17</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>3.11</version>
     </dependency>
     <dependency>
         <groupId>io.appium</groupId>
